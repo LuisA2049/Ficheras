@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    tools:context=".QueSon">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="50dp"
+                    android:layout_height="2dp"
+                    android:background="#F04CE7"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:textColor="@color/white"
+                    android:text="CINE DE FICHERAS"/>
+
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="2dp"
+                    android:background="#F04CE7"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:text="El cine de ficheras fue un género cinematográfico propio del cine mexicano, que floreció a mediados de los setenta y los años ochenta. Se nutría de la comedia erótica italiana y del viejo cine de rumberas, también propio del cine de México. El término se acuña a raíz del título de una de las primeras de estas películas, llamada Bellas de noche (Las ficheras) de 1975."/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="2dp"
+                    android:background="#F04CE7"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:textColor="@color/white"
+                    android:text="ETIMOLOGÍA"/>
+
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="2dp"
+                    android:background="#F04CE7"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:text="En el lenguaje coloquial mexicano, se conoce como 'Fichera' a una mujer que frecuentaba los cabarets de segunda y tercera categoría para bailar y acompañar a los clientes. Si una bebida era consumida por ellas o a sus clientes, se les otorgaba una ficha canjeable por dinero a la hora del cierre. En México, el término comenzó a emplearse para referirse a estas mujeres desde los años 1930, cuando comenzó una invasión de cabarets y centros nocturnos en una Ciudad de México visiblemente más cosmopolita. Constatamos que el oficio de fichera es asociado con la prostitución; sin embargo, como hemos visto en sus manifestaciones, el cine mexicano ha manejado cierta ambigüedad en la relación de ambas actividades. Cabe destacar que anteriormente, el oficio de la fichera era representado como el cénit de la denigración de la mujer y su fracaso en la sociedad, y a él estaban ligados el sufrimiento y la tragedia. Con la ascensión de las ficheras en los años 70 como las nuevas reinas de la noche, esta condición va a cambiar y la imagen con la que estas chicas serán mostradas en el cine va a sufrir algunas modificaciones, aunque los valores ligados a su condición de mujeres sigan siendo los mismos."/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="110dp"
+                    android:layout_height="2dp"
+                    android:background="#F04CE7"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="ORIGEN"
+                    android:textColor="@color/white"
+                    android:textSize="30dp" />
+
+                <View
+                    android:layout_width="120dp"
+                    android:layout_height="2dp"
+                    android:background="#F04CE7"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:text="Bastó un sexenio para que la industria cinematográfica mexicana apoyada por el Estado durante el sexenio del presidente mexicano Luis Echeverría Álvarez se desplomara ante la inercia e indiferencia de los nuevos funcionarios encargados de continuar con la labor cinematográfica. En 1976, el presidente José López Portillo nombró a su hermana Margarita López Portillo como Directora de Radio, Televisión y Cinematografía (RTC). La labor de esta mujer al frente del destino de los medios de comunicación en México fue completamente desastrosa. Con la idea de 'propiciar un retorno al cine familiar' y 'regresar a la época de oro', la administración de López Portillo desmanteló las estructuras de la industria cinematográfica estatal creadas un sexenio antes. Se trató de internacionalizar al cine mexicano trayendo a directores extranjeros a filmar en el país. Se dejó de apoyar a los directores que habían producido filmes de éxito en el sexenio anterior. A final de cuentas, el presupuesto oficial para el cine mexicano desapareció en el mar de la deuda externa. Mientras tanto, aprovechando un cambio favorable en las políticas de exhibición, surgió una nueva industria cinematográfica privada, la cual en pocos años se adueñó del mercado mexicano. Esta industria -caracterizada por producir películas de bajo costo, en muy poco tiempo y con nula calidad- prosperó y se enriqueció a lo largo de la década de los ochentas. En el panorama internacional, a partir de los años 60, la sexualidad comienza a concurrir la pantalla cinematográfica con mayor desenvoltura y creatividad. El erotismo y el desnudo se hacen presentes de diversas formas en géneros como los nudies americanos, las películas alemanas de doctores, el sexy music hall italiano y las películas sexys francesas. Las temáticas y representaciones de algunos de estos tipos de cine que se difundían a pesar de la censura, podría decirse que influirían de cierta manera en escenarios, personajes y tendencias del género de ficheras. Además de estos factores, en la década de los setenta, la Ciudad de México vive una nueva época de oro de la vida nocturna y los cabarets. Esto fue posible en gran parte a la desaparición de la Liga de La Decencia. La capital del país, lugar de vicio y disipación por antonomasia, era terreno fértil para el espectáculo de cabaret, el teatro de carpa y variedad, el vaudeville y otros shows donde ya era común ver mujeres ligeras de ropa, escuchar albures (chistes de doble sentido) y chistes colorados."/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="2dp"
+                    android:background="#F04CE7"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="AUGE DEL GÉNERO"
+                    android:textColor="@color/white"
+                    android:textSize="30dp" />
+
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="2dp"
+                    android:background="#F04CE7"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:text="En 1975 se produce una película inspirada en el viejo cine de rumberas de las décadas de los 40's y 50's, el cabaret, la vida nocturna y el vedettismo: Bellas de noche (Las ficheras) (dirigida por Miguel M. Delgado). Esta película estaba inspirada en la exitosa obra teatral Las ficheras, producida un año antes por el comediante Víctor Manuel 'El Güero' Castro. La película fue producida por una productora privada, Cinematográfica Calderón, una de las primeras en resurgir de las cenizas, en una época en donde la industria ya no era de particulares, sino casi únicamente estatal. Aunque la película Bellas de noche se considera oficialmente la primera película del cine de ficheras, el tema de las vedettes y el teatro de revista ya había sido retratado en cine con anterioridad en la película Tívoli, dirigida por Alberto Isaac en 1974. Al igual que el cine de rumberas, el cine de ficheras basaba sus argumentos en las mujeres de la vida nocturna, las mujeres del cabaret, pero desde un contexto muy distinto, pues para ese momento, la censura cinematográfica se había relajado y el cine internacional se encontraba atrapado en medio de la revolución sexual. A diferencia del cine de rumberas, el cine de ficheras se valió los desnudos explícitos para atraer público a sus taquillas. La diferencia radicó en la «libertad» para destapar el cuerpo femenino, que todavía treinta años antes se «resguardaba» en las plumas coloridas, las colas de cha-cha-chá y las mangas anchas. No debe confundirse el cine de ficheras con la comedia erótica mexicana o sexicomedia que floreció poco después en el cine mexicano y que marcó su decadencia total. El cine de ficheras era un cine de melodramas cabaretiles, vedetismo y revista, más emparentado quizá con el cine de variedades o incluso en cine musical, mientras que las sexicomedias eran cintas de serie B. con lenguaje en doble sentido, desnudos y un ambiente totalmente diferente. La confusión radica quizá en el hecho de que muchas de las estrellas del cine de ficheras, como comediantes y vedettes, dieron el salto poco después a las comedias de albures."/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="110dp"
+                    android:layout_height="2dp"
+                    android:background="#F04CE7"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="DECLIVE"
+                    android:textColor="@color/white"
+                    android:textSize="30dp" />
+
+                <View
+                    android:layout_width="110dp"
+                    android:layout_height="2dp"
+                    android:background="#F04CE7"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:text="Su desaparición en la década de los ochenta se debió a un doble fenómeno: el resurgimiento del cine nacional (pues buena parte de la población pensaba que ese género cinematográfico era un desperdicio de dinero) y la desaparición de los cabarets en la Ciudad de México (que fueron desplazados por los table dances)."/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="100dp"
+                    android:layout_height="2dp"
+                    android:background="#F04CE7"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="EJEMPLO"
+                    android:textColor="@color/white"
+                    android:textSize="30dp" />
+
+                <View
+                    android:layout_width="100dp"
+                    android:layout_height="2dp"
+                    android:background="#F04CE7"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+
+            </LinearLayout>
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/youtube_player_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="ujgXrlC_cYI"
+                app:autoPlay="false"/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

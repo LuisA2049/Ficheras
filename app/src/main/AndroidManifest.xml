@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ficheras">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo33"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo33_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ficheras">
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Pelicula13"
+            android:exported="false" />
+        <activity
+            android:name=".Pelicula12"
+            android:exported="false" />
+        <activity
+            android:name=".Pelicula11"
+            android:exported="false" />
+        <activity
+            android:name=".Pelicula10"
+            android:exported="false" />
+        <activity
+            android:name=".Pelicula9"
+            android:exported="false" />
+        <activity
+            android:name=".Pelicula8"
+            android:exported="false" />
+        <activity
+            android:name=".Pelicula7"
+            android:exported="false" />
+        <activity
+            android:name=".Pelicula6"
+            android:exported="false" />
+        <activity
+            android:name=".Pelicula5"
+            android:exported="false" />
+        <activity
+            android:name=".Pelicula4"
+            android:exported="false" />
+        <activity
+            android:name=".Pelicula3"
+            android:exported="false" />
+        <activity
+            android:name=".Pelicula2"
+            android:exported="false" />
+        <activity
+            android:name=".Pelicula1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

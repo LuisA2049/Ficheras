@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Recomendaciones">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imbPelicula1"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="110dp"
+                    android:layout_height="160dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/poster1"
+                    android:padding="2dp"
+                    android:background="#F04CE7"/>
+
+                <ImageButton
+                    android:id="@+id/imbPelicula2"
+                    android:layout_margin="3dp"
+                    android:layout_width="110dp"
+                    android:layout_height="160dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/poster2"
+                    android:padding="2dp"
+                    android:background="#F04CE7"/>
+
+                <ImageButton
+                    android:id="@+id/imbPelicula3"
+                    android:layout_margin="3dp"
+                    android:layout_width="110dp"
+                    android:layout_height="160dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/poster3"
+                    android:padding="2dp"
+                    android:background="#F04CE7"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imbPelicula4"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="110dp"
+                    android:layout_height="160dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/poster4"
+                    android:padding="2dp"
+                    android:background="#F04CE7"/>
+
+                <ImageButton
+                    android:id="@+id/imbPelicula5"
+                    android:layout_margin="3dp"
+                    android:layout_width="110dp"
+                    android:layout_height="160dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/poster5"
+                    android:padding="2dp"
+                    android:background="#F04CE7"/>
+
+                <ImageButton
+                    android:id="@+id/imbPelicula6"
+                    android:layout_margin="3dp"
+                    android:layout_width="110dp"
+                    android:layout_height="160dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/poster6"
+                    android:padding="2dp"
+                    android:background="#F04CE7"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imbPelicula7"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="110dp"
+                    android:layout_height="160dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/poster7"
+                    android:padding="2dp"
+                    android:background="#F04CE7"/>
+
+                <ImageButton
+                    android:id="@+id/imbPelicula8"
+                    android:layout_margin="3dp"
+                    android:layout_width="110dp"
+                    android:layout_height="160dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/poster8"
+                    android:padding="2dp"
+                    android:background="#F04CE7"/>
+
+                <ImageButton
+                    android:id="@+id/imbPelicula9"
+                    android:layout_margin="3dp"
+                    android:layout_width="110dp"
+                    android:layout_height="160dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/poster9"
+                    android:padding="2dp"
+                    android:background="#F04CE7"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imbPelicula10"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginLeft="11dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="110dp"
+                        android:layout_height="160dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/poster10"
+                        android:padding="2dp"
+                        android:background="#F04CE7"/>
+
+                    <ImageButton
+                        android:id="@+id/imbPelicula11"
+                        android:layout_margin="3dp"
+                        android:layout_width="110dp"
+                        android:layout_height="160dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/poster11"
+                        android:padding="2dp"
+                        android:background="#F04CE7"/>
+
+                    <ImageButton
+                        android:id="@+id/imbPelicula12"
+                        android:layout_margin="3dp"
+                        android:layout_width="110dp"
+                        android:layout_height="160dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/poster12"
+                        android:padding="2dp"
+                        android:background="#F04CE7"/>
+
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imbPelicula13"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="110dp"
+                    android:layout_height="160dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/poster13"
+                    android:padding="2dp"
+                    android:background="#F04CE7"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
